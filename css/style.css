@@ -1,0 +1,318 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 55.5%;
+  box-sizing: border-box;
+  scroll-behavior: smooth; }
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #000000; }
+
+.container {
+  max-width: 1206px; }
+  .container--sm {
+    max-width: 1222px; }
+
+.description-lg {
+  font-size: 2.5rem;
+  color: #000;
+  font-weight: 400;
+  margin-bottom: 0;
+  letter-spacing: .2rem; }
+
+.description-sm {
+  font-size: 2.2rem;
+  color: #000;
+  font-weight: 400;
+  margin-bottom: 0;
+  letter-spacing: .2rem;
+  line-height: 1.3; }
+
+.section__heading {
+  font-weight: 400;
+  font-size: 3rem;
+  color: #000000; }
+
+.mb__6 {
+  margin-bottom: 6rem; }
+
+.mb__7 {
+  margin-bottom: 7rem; }
+
+.mb__8 {
+  margin-bottom: 8rem; }
+
+.mb__9 {
+  margin-bottom: 9rem; }
+
+.mb__10 {
+  margin-bottom: 10rem; }
+
+.mt__6 {
+  margin-top: 6rem; }
+
+.mt__10 {
+  margin-top: 10rem; }
+
+/*====================
+======= Button ===========
+=========================*/
+.btn--big {
+  display: block;
+  text-align: center;
+  font-size: 5.5rem;
+  font-weight: 400;
+  color: #000;
+  border: 3px solid #000;
+  margin-bottom: 4rem;
+  transition: all .3s;
+  padding: 2rem 2rem; }
+  .btn--big--sm {
+    padding: 1rem 2rem;
+    font-size: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; }
+    .btn--big--sm[aria-expanded="true"] .collapse__icon {
+      transform: rotate(180deg); }
+    .btn--big--sm.toggler:hover {
+      background-color: #fff;
+      color: inherit; }
+  .btn--big:hover {
+    text-decoration: none;
+    background-color: #000;
+    color: #fff; }
+
+.collapse__icon {
+  max-width: 4rem;
+  width: 100%;
+  transition: all .2s; }
+
+.card-body {
+  border: none; }
+
+.navbar-toggler-icon {
+  width: 3.5rem;
+  height: 3.5rem; }
+
+/*====================
+======= Header Top ===========
+=========================*/
+.header__top {
+  background-color: #202020;
+  color: #fff;
+  text-align: center;
+  font-weight: 400;
+  font-size: 3.3rem;
+  letter-spacing: 2px;
+  padding: 3rem 0; }
+
+/*====================
+======= Navbar ===========
+=========================*/
+.nav {
+  border-bottom: 3px solid #000000; }
+
+.navbar-brand {
+  font-size: 5.6rem;
+  color: #000000;
+  line-height: 1.2; }
+
+.nav-link {
+  font-size: 2.5rem;
+  border: 2px solid #666666;
+  margin-left: .7rem;
+  transition: all .3s;
+  padding: 1rem 3rem !important;
+  display: inline-block;
+  color: #000 !important; }
+  .nav-link:hover {
+    background-color: #000;
+    color: #fff !important;
+    border-color: #000; }
+
+/*====================
+======= Header ===========
+=========================*/
+.header {
+  padding: 5rem 0; }
+
+.owl-nav span {
+  display: none; }
+
+.owl-nav button {
+  width: 8rem;
+  height: 8rem;
+  transform: translate(0, -50%);
+  position: absolute;
+  top: 50%;
+  left: 0;
+  outline: none; }
+
+.owl-nav .owl-prev,
+.owl-nav .owl-next {
+  background-image: url(../img/left-arr.png) !important;
+  background-size: contain !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  display: block; }
+
+.owl-nav .owl-next {
+  left: auto;
+  right: 0;
+  background-image: url(../img/right-arr.png) !important; }
+
+/*====================
+======= About ===========
+=========================*/
+.about {
+  padding: 3rem 0;
+  border-bottom: 3px solid #000000;
+  border-top: 3px solid #000000; }
+
+/*====================
+======= Map ===========
+=========================*/
+.map {
+  padding: 8rem 0; }
+  .map__img {
+    width: 100%;
+    height: 40rem;
+    background-image: url(../img/map.jpg);
+    background-position: center;
+    background-repeat: no-repeat; }
+
+/*====================
+======= inwestycji ===========
+=========================*/
+.inwestycji {
+  padding: 6rem 0;
+  width: 90%;
+  margin: 0 auto; }
+
+/*====================
+======= Services ===========
+=========================*/
+.services {
+  padding: 5rem 0; }
+  .services__single {
+    margin-bottom: 5rem; }
+  .services__img {
+    max-width: 30rem;
+    width: 100%;
+    max-height: 10rem;
+    object-fit: contain;
+    margin-bottom: 3rem; }
+
+/*====================
+======= Details ===========
+=========================*/
+.details {
+  padding: 7rem 0; }
+  .details__img {
+    width: 100%;
+    max-width: 12rem;
+    margin-bottom: 4rem; }
+  .details__colored {
+    font-size: 2.2rem;
+    color: #94AAC2;
+    font-weight: 400; }
+
+/*====================
+======= Gallery ===========
+=========================*/
+.gallery {
+  padding: 4rem 0 10rem 0; }
+
+/*====================
+======= map-bottom ===========
+=========================*/
+.map-bottom {
+  border-top: 4px solid #000; }
+  .map-bottom .container {
+    padding-top: 2rem;
+    padding-bottom: 10rem;
+    background-image: url(../img/map-bottom.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position-x: 0%;
+    background-position-y: center; }
+  .map-bottom .section__heading {
+    letter-spacing: 2px; }
+  .map-bottom-text {
+    font-size: 6.5rem;
+    line-height: 1; }
+    .map-bottom-text span {
+      margin-right: 1.5rem; }
+    .map-bottom-text p:last-child {
+      font-size: 2.78rem; }
+      .map-bottom-text p:last-child span {
+        font-size: 6.7rem; }
+
+/*====================
+======= Footer ===========
+=========================*/
+.footer {
+  background-color: #202020;
+  padding: 2rem 0; }
+  .footer__title {
+    color: #fff;
+    font-size: 2.5rem;
+    margin-bottom: 2rem; }
+  .footer__list {
+    margin-left: 0;
+    padding-left: 0; }
+  .footer__item {
+    list-style: none;
+    margin-left: 0; }
+  .footer__link {
+    color: #fff;
+    font-size: 1.9rem;
+    font-weight: 400;
+    padding: .5rem 0;
+    display: inline-block; }
+    .footer__link:hover {
+      text-decoration: none;
+      color: #fff; }
+  .footer__logo {
+    max-width: 32rem;
+    width: 100%; }
+
+/*====================
+======= Tables ===========
+=========================*/
+.table {
+  font-size: 2.5rem;
+  font-weight: 400;
+  text-align: center;
+  padding-bottom: 20rem;
+  min-width: 750px; }
+  .table thead tr {
+    border-bottom: 3px solid #94AAC2;
+    margin-bottom: 1rem; }
+  .table td {
+    vertical-align: middle; }
+  .table tbody td:first-child {
+    color: #94AAC2;
+    font-size: 4.1rem; }
+  .table__btn {
+    border: 2px solid #737373;
+    text-transform: uppercase;
+    color: #000;
+    width: 70%;
+    display: inline-block;
+    padding: .6rem 2rem;
+    transition: all .3s; }
+    .table__btn:hover {
+      background-color: #000;
+      color: #fff;
+      text-decoration: none; }
+  .table-sec {
+    padding-bottom: 15rem;
+    min-width: 400px; }
