@@ -6,9 +6,9 @@
 
 > ## For live preview : [Click Here](https://iamsaif6.github.io/Apartmenty/ "Apartmenty")
 
-> ## [Home Page 2](https://iamsaif6.github.io/Apartmenty/index%20-%202.html/ "Portfolio")
+> ## [Home Page 2](https://iamsaif6.github.io/Apartmenty/index%20-%202.html "Portfolio")
 
-> ## [Home Page 3](https://iamsaif6.github.io/Apartmenty/index%20-%203.html/ "Portfolio")
+> ## [Home Page 3](https://iamsaif6.github.io/Apartmenty/index%20-%203.html "Portfolio")
 
  <br>
 
