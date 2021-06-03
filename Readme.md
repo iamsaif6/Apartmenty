@@ -2,9 +2,9 @@
 
 <br>
 
-<img src="https://github.com/iamsaif6/ader/blob/master/ader.gif" width="800px" />
+<img src="https://github.com/iamsaif6/Apartmenty/blob/master/Screenshot%202021-06-03%20at%2014-38-53%20Document.png" width="800px" />
 
-> ## For live preview : [Click Here](https://iamsaif6.github.io/ader/ "Ader")
+> ## For live preview : [Click Here](https://iamsaif6.github.io/Apartmenty/ "Apartmenty")
 
  <br>
 
